@@ -20,6 +20,6 @@ Task-13|Footfall Counter|Not attempted
 Task-14|Bandit|Not attempted
 Task-15| Project Euler |Not attempted
 ## My views about the tasks
-I personally took a lot of time for each task.These tasks made me realise how poor I am at googling :disappointed_relieved: .But I could see myself improving as I did more tasks .So I would say the tasks helped in improving my overall coding abilities.
+I personally took a lot of time for each task.These tasks made me realise my abilities .I could see myself improving as I did more tasks .So I would say the tasks helped in improving my overall coding abilities.
 ## My Introduction
 Hi seniors,I am Akshaya Krishnan from Kerala.This entire task really helped me improve my overall coding and googling skills and also introduced me to many new domains and languages which I will surely research more on .I would say these tasks challenged me and honestly the more stuck I felt in a task , the more intense the desire was to complete it and it made me feel really good.
