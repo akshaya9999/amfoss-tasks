@@ -7,7 +7,7 @@
 [Task-01](https://github.com/akshaya9999/amfoss-tasks2/tree/main/Task-01)|Staring amFOSS repositories|Completed
 [Task-02](https://github.com/akshaya9999/amfoss-tasks2/tree/main/Task-02)|Terminal Hunt|Completed
 [Task-03](https://github.com/akshaya9999/amfoss-tasks2/tree/main/Task-03)|Programming|Did 7 Qns
-Task-04| Cinebot|Completed
+[Task-04](https://github.com/akshaya9999/amfoss-tasks/tree/main/task-04)| Cinebot|Completed
 [Task-05](https://github.com/akshaya9999/amfoss-tasks2/tree/main/Task-05)| Find The Bug|Completed
 [Task-06](https://github.com/akshaya9999/amfoss-tasks2/tree/main/Task-06)|Flame Game|Completed
 Task-07| Go WASM|Not attempted
