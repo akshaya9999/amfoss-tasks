@@ -1,0 +1,23 @@
+n=int(input())
+s=list(map(str, input().strip().split()))
+mana=0
+o=s.count("1")
+t=s.count("2")
+tr=s.count("3")
+f=s.count("4")
+mana=o+t+tr+f
+sset=tr-o
+sett=o-tr
+if sset==0 or sett==0:
+  mana=mana-tr
+elif sset>0:
+  mana=mana-o
+
+if sett>0:
+  mana=mana-tr
+if t>1:
+    if t%2==0:
+        mana=mana-t/2
+    else:
+        mana=mana-(t-1)/2
+print(mana)

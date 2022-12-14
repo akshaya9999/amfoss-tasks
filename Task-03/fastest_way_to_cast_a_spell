@@ -1,0 +1,41 @@
+h=list(map(int, input().strip().split()))
+l1=list(map(str, input().strip().split()))
+l2=list(map(str, input().strip().split()))
+l3=list(map(str, input().strip().split()))
+
+ans=[]
+m=h[0]
+n=h[1]
+ini=0
+ind=0
+x=0
+y=0
+for i in range(m):
+    x=l3[i]
+    for b in range(n):
+        if x==l1[b]: 
+            min=len(l1[0])
+
+            for m in range(1,n):
+                if len(l1[m])<min:
+                    min=len(l1[m])
+                    ini=m
+            x=l1[ini]
+            ans.append(x) 
+            
+        elif any(itemm ==x for itemm in l2):
+            min1=len(l2[0])
+            ind=0
+            for b in range(1,n):
+                if len(l2[b])<min:
+                    min1=len(l2[b])
+                    ind=b
+            y=l2[ind]
+            ans.append(y)
+q=len(ans)
+
+for e in range(q):
+    if e%n==0:
+        print(ans[e],end=" ")
+    
+    

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5C07ARZqFNU59uOxha06l/6fCA1PjwmOG+2TXCCqwDsmoWb0AOQKf9BM3LGIHt2UkCi7M3x4kwP14MNYfU3Haw==",
+  "success": true,
+  "projectFilePath": "/home/akshaya/tasks/task-05/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/akshaya/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

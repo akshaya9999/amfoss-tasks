@@ -1,0 +1,30 @@
+t=int(input())
+l=[]
+mana=0
+manaf=[]
+x=0
+d=0
+
+for i in range(t):
+  n=int(input())
+  
+  l=list(map(int, input().strip().split()))
+  mana=0
+  d=0
+  for h in range(n-1):
+    if l[h]!=0 :
+      d=1
+  
+  for i in range(n):
+    if l[i]==0 and i!=n-1 and i!=0:
+      l[i]=1
+      l[i-1]=l[i-1]-1
+      mana+=1
+  for k in range(n-1):
+    if l[k]!=0:
+      l[n-1]+=l[k]
+      mana+=l[k]
+  if(d==1):
+    print(mana)
+  elif d==0:
+    print("0")

@@ -1,0 +1,23 @@
+t=int(input())
+k=[]
+mana=0
+manaf=[]
+y=0
+g=0
+for i in range(t):
+  mana=0
+  x=int(input())
+  k=list(map(int, input().strip().split()))
+  if(k[x-1]!=0):
+    y=k[x-1]
+    mana+=1
+    x=y
+  if(k[x-1]!=0):
+    y=k[x-1]
+    mana+=1
+    x=y
+    
+  if mana<2:
+    print("NO")
+  else:
+    print("YES")

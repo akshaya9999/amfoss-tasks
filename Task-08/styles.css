@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  background-color: #7df87d;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Diplomata SC', cursive;
+  color: #0a4ddd;
+  text-shadow: 3px 0 #0f0f0f;
+
+}
+
+.w {
+  font-size: 10rem;
+  font-family: 'Fredoka One', cursive;
+  text-shadow:100 px #283149;
+  background-color: rgb(120, 146, 219);
+  box-shadow: 10px 5px 5px #DA0463;
+
+}
+
+.a {
+  font-size: 8rem;
+  font-family: 'Fredoka One', cursive;
+  color: aqua;
+  text-shadow: #DA0463;
+  box-shadow: 10px 5px 5px #0407da;
+
+}
+
+.s {
+  font-size: 10rem;
+  font-family: 'Fredoka One', cursive;
+  color: bisque;
+  text-shadow: #404B69;
+  box-shadow: 10px 5px 5px #da2f04;
+
+}
+
+.d {
+  font-size: 5rem;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  text-shadow: #DBEDF3;
+  box-shadow: 10px 5px 5px #DA0463;
+
+}
+
+.j {
+  font-size: 6rem;
+  font-family: 'Fredoka One', cursive;
+  color: aliceblue;
+  text-shadow: #DA0463;
+  box-shadow: 10px 5px 5px #b604da;
+
+}
+
+.k {
+  font-size: 8rem;
+  font-family: 'Fredoka One', cursive;
+  color: aquamarine;
+  text-shadow: #283149;
+  box-shadow: 10px 5px 5px #DA0463;
+
+}
+
+.l {
+
+  font-size: 4rem;
+  font-family: 'Fredoka One', cursive;
+  color: beige;
+  text-shadow: #404B69;
+  box-shadow: 10px 5px 5px #572fe7;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: rgb(98, 68, 231);
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #050608;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #f51818;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(233, 148, 250);
+}

@@ -1,0 +1,22 @@
+t=int(input())
+m=[]
+x=0
+u=[]
+for i in range(t):
+  n=int(input())
+  m=list(map(int, input().strip().split()))
+  for a in range(n):
+    u.append(a)
+    x=0
+    for b in range(0,a):
+      
+      if any(u>=m for u[b] in m):                   
+        
+        x=1
+        break
+    
+    
+  if(x==0):
+    print("NO")
+  elif (x==1):
+    print("YES")

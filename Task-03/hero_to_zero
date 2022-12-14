@@ -1,0 +1,23 @@
+t=int(input())
+h=[]
+mana=0
+manaf=[]
+x=0
+for i in range(t):
+  n=int(input())
+  h=list(map(int, input().strip().split()))
+  if(any(v==0 for v in h)):
+    x=h.count(0)
+    l=len(h)
+    mana=l-x
+    manaf.append(mana)
+  elif(len(set(h)) != len(h) and any(w!=0 for w in h)):
+    mana=(len(h))
+    manaf.append(mana)
+  elif(len(set(h)) == len(h) and any(v!=0 for v in h)):
+    mana=len(h)+1
+    manaf.append(mana)
+for j in range(len(manaf)):
+  print(manaf[j])
+  
+    
